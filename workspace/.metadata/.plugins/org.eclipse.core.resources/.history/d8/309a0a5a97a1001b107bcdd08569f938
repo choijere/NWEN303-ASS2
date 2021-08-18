@@ -1,0 +1,8 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public interface ModelInterface {
+	public List<Particle> p = new ArrayList<Particle>(); //ALL particles in the simulation.
+}

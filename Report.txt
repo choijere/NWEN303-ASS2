@@ -1,0 +1,6 @@
+Immediately, there is little documentation for the code.
+All documentation for the methods have been added in by yours truly.
+
+Running the code, this simulates, well, particles.
+smaller mass has attraction to other bigger mass.
+when the mass collides, the bigger one acquires the smaller one, growing.

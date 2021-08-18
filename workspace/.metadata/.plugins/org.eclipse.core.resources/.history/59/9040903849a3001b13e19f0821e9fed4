@@ -1,0 +1,54 @@
+Immediately, there is little documentation for the code.
+All documentation for the methods have been added in by yours truly.
+
+Running the code, this simulates, well, particles.
+smaller mass has attraction to other bigger mass.
+when the mass collides, the bigger one acquires the smaller one, growing.
+
+ * [Checking code correctness]
+ * 1) Running both, after each step, compare the sizes of the lists.
+ * Check particle positions
+ *
+ * Equals in the particle.
+ *
+ * OR
+ *
+ * Own of list are equal method. checks the mass and positions.
+ *
+ * [Checking Speed]
+ * 1) running both, checking both times, comparing them.
+ * 2) running both, check both time stamp AVERAGES PER STEPS, comparing them.
+
+ * NOTE TO URSELF:
+ * 1) Java file that runs everything, sequentially and then parallel.
+ * 2) Remembers the array sizes and remembers the speed's
+ * 3) Checks if anything is wrong with the array sizes. Writes it in the report if there's something wrong.
+ * 4) Crunches the speed data, the averages.
+ * 5) Compares the speed of the total elapsed time AND average, between sequential and parallel.
+ * 6) Create and write a txt document.
+
+
+//		ArrayList<DrawableParticle> d = new ArrayList<DrawableParticle>();
+//		Color c = Color.ORANGE;
+//
+//		//Ensure that all interactions are completed. (BLOCKING METHOD)
+//		for(Future f : particleFutures) {
+//			getResult(f);
+//		}
+//		particleFutures.clear();
+//		//======================================================//
+//
+//		//SECOND: process movement.
+//		for (Particle p : this.p) {
+//			d.add(new DrawableParticle((int) p.x, (int) p.y, (int) Math.sqrt(p.mass), c));
+//			particleFutures.add(particlePool.submit(() -> p.move()));
+//		}
+//		this.pDraw = d;// atomic update
+//
+//		//Ensure that all movements are completed. (BLOCKING METHOD)
+//		for(Future f : particleFutures) {
+//			getResult(f);
+//		}
+//		particleFutures.clear();
+//		//======================================================//
+

@@ -1,0 +1,29 @@
+package gui.runTests;
+
+import java.util.ArrayList;
+
+import model.Particle;
+
+/**
+ * Mostly just holds measurements that are given to it by the model.
+ * Used for retrieving data from, by RunTests.
+ * 
+ * @author Student#300474835
+ *
+ */
+public class ModelHolder {
+	//time and efficiency measurements
+	public float finalTime = 0;
+	private float averageTime = 0;
+	public int numberOfSteps = 0;
+	
+	//Code correctness
+	private ArrayList<ArrayList<Particle>> logOfParticles = new ArrayList<>();
+	
+	//========================================================//
+	
+	public void logParticles(ArrayList<Particle> p) {
+		logOfParticles.add(p);
+	}
+	
+}

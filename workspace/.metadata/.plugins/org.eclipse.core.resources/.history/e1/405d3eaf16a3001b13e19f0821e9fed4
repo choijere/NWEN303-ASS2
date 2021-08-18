@@ -1,0 +1,17 @@
+Immediately, there is little documentation for the code.
+All documentation for the methods have been added in by yours truly.
+
+Running the code, this simulates, well, particles.
+smaller mass has attraction to other bigger mass.
+when the mass collides, the bigger one acquires the smaller one, growing.
+
+
+Make boolean that runs parallel or sequential.
+
+ * NOTE TO URSELF:
+ * 1) Java file that runs everything, sequentially and then parallel.
+ * 2) Remembers the array sizes and remembers the speed's
+ * 3) Checks if anything is wrong with the array sizes. Writes it in the report if there's something wrong.
+ * 4) Crunches the speed data, the averages.
+ * 5) Compares the speed of the total elapsed time AND average, between sequential and parallel.
+ * 6) Create and write a txt document.

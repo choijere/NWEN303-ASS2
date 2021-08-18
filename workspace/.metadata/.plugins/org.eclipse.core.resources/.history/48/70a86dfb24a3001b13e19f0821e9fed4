@@ -1,0 +1,12 @@
+package gui.runTests;
+
+public class ModelHolder {
+	//time and efficiency measurements
+	public float finalTime = 0;
+	private float averageTime = 0;
+	public int numberOfSteps = 0;
+	
+	//Code correctness
+	private ArrayList<ArrayList<Particle>> logOfParticles = new ArrayList<>();
+	
+}
